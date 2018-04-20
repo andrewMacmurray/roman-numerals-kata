@@ -17,7 +17,7 @@ public class RomanNumeralsTest {
 
     @Test
     public void encodeAllTheRomans() {
-        for (int i = 0; i< testDigits.length; i++) {
+        for (int i = 0; i < testDigits.length; i++) {
             assertEquals(romanNumerals.encode(testDigits[i]), testNumerals[i]);
         }
     }
